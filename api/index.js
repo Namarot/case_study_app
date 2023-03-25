@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 
 //test route
 app.get('/', (req, res, next) => {
-  res.send('Hello World, version 2');
+  res.send('Hello World, version 3');
 });
 
 //CRUD routes
